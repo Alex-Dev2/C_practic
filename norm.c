@@ -326,6 +326,6 @@ float bye() {
     int COINS1 = floor(COINS/ kurs) * kurs;
     COINS = COINS - COINS1;
     clrscr();
-    printf("\Жаль что уже уходите\nБаланс:\nТугрики: %.2f\nФишки: %.2f\n", MONEY,COINS);
+    printf("\nЖаль что уже уходите\nБаланс:\nТугрики: %.2f\nФишки: %.2f\n", MONEY,COINS);
     return MONEY;
 }
